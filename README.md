@@ -17,7 +17,7 @@ Install the dependencies with the command:
 ```
 npm i
 
----
+```
 In the root folder of the application, create a text file called `.env`, write the environment variable `PORT` in it with the value of a convenient port for starting the application. For convenience, there is an `.env.example` file with an example in the root folder, you can simply rename it into .env. If the `PORT` variable is not set or the `.env` file is not created at all, then the application will run on the default port: 3000
 
 
