@@ -5,34 +5,31 @@ Clone this repository with the command:
 ```
 git clone https://github.com/Mmishaaa/CRUD-API.git
 
+```
 Navigate to the newly created folder:
 
-cd CRUD-APi
-
 ```
+cd CRUD-APi
 
 ```
 Install the dependencies with the command:
 
+```
 npm i
 
-```
-
-
-```
-
+---
 In the root folder of the application, create a text file called `.env`, write the environment variable `PORT` in it with the value of a convenient port for starting the application. For convenience, there is an `.env.example` file with an example in the root folder, you can simply rename it into .env. If the `PORT` variable is not set or the `.env` file is not created at all, then the application will run on the default port: 3000
 
----
 
+```
 ## 2. Application launch
 
 For convenience, the application has a number of scripts to run or build in different modes
 
 - Сommand
 
-```
 
+```
 npm run start:prod
 
 ```
@@ -42,15 +39,9 @@ starts the build process and then runs the bundled file
 - Сommand
 
 ```
-
-- Command
-
-```
-
 npm run start:dev
 
 ```
-
 runs the application in development mode without horizontal scaling. In this mode, you can make changes to the application code, it will automatically restart when you save changes
 
 ## 3. Working with the application
