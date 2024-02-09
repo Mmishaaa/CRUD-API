@@ -18,7 +18,7 @@ Install the dependencies with the command:
 npm i
 
 ```
-In the root folder of the application, create a text file called `.env`, write the environment variable `PORT` in it with the value of a convenient port for starting the application. For convenience, there is an `.env.example` file with an example in the root folder, you can simply rename it into .env. If the `PORT` variable is not set or the `.env` file is not created at all, then the application will run on the default port: 3000
+In the root folder of the application, create a text file called `.env`, write the environment variable `PORT` in it with the value of a convenient port for starting the application. For convenience, there is an `.env.example` file with an example in the root folder, you can simply rename it into .env. If the `PORT` variable is not set or the `.env` file is not created at all, then the application will run on the default port: 3000(to see if the PORT from .env is working.)
 
 ## 2. Application launch
 
@@ -72,8 +72,6 @@ When a `PUT` request to `http://localhost:${YOUR_PORT}/api/users/${SOME_USER_ID}
 A `DELETE` request to `http://localhost:${YOUR_PORT}/api/users/${SOME_USER_ID}` removes the user record with `id === SOME_USER_ID` from the database.
 
 ## 4. Running tests
-
-# **_Application must be running before running tests!!!_**
 
 Command
 
