@@ -7,17 +7,17 @@ git clone https://github.com/Mmishaaa/CRUD-API.git
 
 Navigate to the newly created folder:
 
-```
-
 cd CRUD-APi
 
 ```
 
+```
 Install the dependencies with the command:
+
+npm i
 
 ```
 
-npm i
 
 ```
 
